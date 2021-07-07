@@ -30,6 +30,28 @@ body {
   color: #b71c1c;
 }
 
+.text-navy-blue {
+  color: #133BB1;
+}
+
+.text-btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 40px;
+  cursor: pointer;
+  display: inline-block;
+  text-align:center;
+}
+
+.and-more {
+  color: #133BB1;
+}
+
+.more-padding {
+  padding: 5px 10px;
+}
+
 /* ===============================
 NAVBAR STYLING
 ================================== */
@@ -54,6 +76,16 @@ nav .brand-logo {
   width: 55px;
 }
 
+.container {
+  width: 80%
+}
+
+.survey-btn {
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: limegreen
+}
+
 /* ===============================
 SLIDER SECTION 
 ================================== */
@@ -71,7 +103,31 @@ ABOUT SECTION
 }
 
 /* ===============================
-PROGRAMS SECTION 
+ SERVICES SECTION 
+================================== */
+.jumbotron {
+    background-color: #f4511e;
+    color: #fff;
+    padding: 100px 25px;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo {
+    font-size: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+
+/* ===============================
+SOLUTIONS SECTION 
 ================================== */
 
 .program-img-style {
@@ -94,9 +150,74 @@ PROGRAMS SECTION
   color: #42a5f5;
 }
 
+/* ===============================
+TOKENS SECTION 
+================================== 
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+*/
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: large;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.token-column {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+
+.token-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 /* ===============================
-PARTNERS SECTION 
+TEAM SECTION 
 ================================== */
 
 .partner-img {
@@ -110,7 +231,7 @@ PARTNERS SECTION
 }
 
 /* ===============================
-NEWS & EVENTS SECTION 
+EVENTS SECTION 
 ================================== */
 
 .section-icons {
@@ -127,6 +248,12 @@ NEWS & EVENTS SECTION
   overflow: visible;
   max-height:100%;
 }
+
+.news-text-styling {
+  margin: 0;
+  padding: 0;
+}
+
 
 /* ===============================
 FOOTER SECTION 

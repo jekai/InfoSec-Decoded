@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -10,14 +11,22 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/custom.css">
   <!-- Font Awesome Script -->
-  <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"
+    integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy"
+    crossorigin="anonymous"></script>
   <!-- Icon for Browser Tab -->
-  <link rel="shortcut icon" type="image/png" href="img/ccsf.png" />
+  <link rel="shortcut icon" type="image/png" href="img/infosec.png" />
   <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="UTF-8">
-  <title>CCSF Cyber Center</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <title>InfoSec Decoded</title>
 </head>
+
 <body id="home" class="scrollspy">
 
   <!-- ============================================================= -->
@@ -25,51 +34,61 @@
   <!-- ============================================================= -->
 
   <div class="navbar-fixed">
-    <nav class="red darken-4">
+    <nav class="black darken-4">
       <div class="container">
         <div class="nav-wrapper">
           <!-- logo and navbar large screen -->
-          <a href="#" class="brand-logo logo hide-on-med-and-down"><img src="img/ccsf-logo-white.png" alt=""><span> CCSF Cyber Center</a>
+          <a href="#" class="brand-logo logo hide-on-med-and-down"><img src="img/infosec-logo-white1.png" alt=""><span>
+              InfoSec Decoded</a>
           <!-- logo and navbar switch to mobile screen -->
-          <a href="#" class="brand-logo show-on-medium-and-down hide-on-large-only">CCSF</a>
+          <a href="#" class="brand-logo show-on-medium-and-down hide-on-large-only">InfoSec Decoded</a>
           <!-- navbar mobile mode -->
           <a href="#" data-target="mobile-nav" class="sidenav-trigger">
             <i class="material-icons">menu</i>
           </a>
-            <ul class="right hide-on-med-and-down">
-              <li>
-                <a href="#home">Home</a>
-              </li>
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#programs">Programs</a>
-              </li>
-              <li>
-                <a href="#students">Students</a>
-              </li>
-              <li>
-                <a href="#advisors">Advisors</a>
-              </li>
+          <ul class="right hide-on-med-and-down">
+            <!-- <li><a href="#"><button class="btn navbar-btn survey-btn">Take Survey</button></a></li> -->
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#solutions">Solutions</a>
+            </li> 
+            <!--
               <li>
                 <a href="#partners">Partners</a>
               </li>
+              -->
+            <!--
               <li>
-                <a href="#news-events">News & Events</a>
+                <a href="#careers">Careers</a>
               </li>
-            </ul>
-          </div>
+               -->
+            <li>
+              <a href="#team">Team</a>
+            </li>
+            <li>
+              <a href="#news-events">Events</a>
+            </li>
+            <!-- <li><button class="btn blue darken-4 navbar-btn round-btn">Login</button></li> -->
+          </ul>
+          
         </div>
-      </nav>
-    </div>
-
+    </nav>
+  </div>
+  
   <!-- ============================================================= -->
   <!-- SIDENAV for MOBILE -->
   <!-- ============================================================= -->
 
   <!-- initialized in main.js -->
-  <ul class="sidenav red darken-4 white-text" id="mobile-nav">
+  <ul class="sidenav black darken-4 white-text" id="mobile-nav">
     <li>
       <a href="#home" class="white-text">Home</a>
     </li>
@@ -77,48 +96,62 @@
       <a href="#about" class="white-text">About</a>
     </li>
     <li>
-      <a href="#programs" class="white-text">Programs</a>
+      <a href="#services" class="white-text">Services</a>
     </li>
     <li>
-      <a href="#students" class="white-text">Students</a>
+      <a href="#solutions" class="white-text">Solutions</a>
     </li>
-    <li>
-      <a href="#advisors" class="white-text">Advisors</a>
-    </li>
+    <!--
     <li>
       <a href="#partners" class="white-text">Partners</a>
     </li>
+    -->
+    <!--
     <li>
-      <a href="#news-events" class="white-text">News & Events</a>
+      <a href="#careers" class="white-text">Careers</a>
     </li>
+     -->
+    <li>
+      <a href="#team" class="white-text">Team</a>
+    </li>
+    <li>
+      <a href="#news-events" class="white-text">Events</a>
+    </li>
+    <!--<li><button class="btn btn-danger navbar-btn">Login</button></li> -->
   </ul>
-
+  <div class="black">
+    <!-- <a href="#"><button class="center-block btn navbar-btn survey-btn btn-xs show-on-medium-and-down hide-on-large-only">Take Survey</button></a> -->
+    <br>
+  </div>
   <!-- ============================================================= -->
   <!--  SECTION for SLIDER  -->
   <!-- ============================================================= -->
 
   <!-- initialized in main.js -->
+  
   <section class="slider">
     <ul class="slides">
       <li>
         <img src="img/world.jpg">
         <div class="caption center-align">
-          <h1 class="slider-title">Cyber Center</h1>
-          <h5 class="light grey-text text-lighten-3 text-dark-shadow">City College of San Francisco</h5>
+          <h1 class="slider-title">InfoSec Decoded</h1>
+          <h5 class="light grey-text text-lighten-3 text-dark-shadow">Cybersecurity training and services</h5>
         </div>
       </li>
       <li>
         <img src="img/world.jpg">
         <div class="caption left-align">
           <h2 class="slider-title">Equip Next <span class="truncate">Generation</span></h2>
-          <h5 class="light grey-text text-lighten-3 text-dark-shadow">To understand and address real-world challenges in cybersecurity</h5>
+          <h5 class="light grey-text text-lighten-3 text-dark-shadow">To understand and address real-world challenges in
+            cybersecurity</h5>
         </div>
       </li>
       <li>
         <img src="img/world.jpg">
         <div class="caption right-align">
-          <h2 class="slider-title">Cyber Center</h2>
-          <h5 class="light grey-text text-lighten-3 text-dark-shadow">Brings together a range of expertise from across City College of San Francisco</h5>
+          <h2 class="slider-title">InfoSec Decoded</h2>
+          <h5 class="light grey-text text-lighten-3 text-dark-shadow">Brings together a range of expertise from
+            cybersecurity training to services.</h5>
         </div>
       </li>
     </ul>
@@ -131,10 +164,56 @@
   <!-- initialized in main.js -->
   <section id="about">
     <div class="container">
-      <h3 class="title-header text-light-grey center-align">About</h3>
-      <p class="flow-text text-light-grey center-align about-paragraph">The CCSF Cyber Center, housed at the Computer Networking and Information Technology department at City College of San Francisco, brings together a range of expertise to educate, understand and address real-world challenges in cybersecurity and to equip the next generation of cybersecurity experts.</p>
+      <h3 class="title-header center-align">About</h3>
+      <p class="flow-text text-light-grey center-align about-paragraph">InfoSec Decoded offers security trainings with hands-on, real world and job-relevant exercises that gets you to the next level in your career. We are your guides through the cyber security landscape by offering customizable trainings with clear objectives and pathways that lead to industry recognized professions. We incorporate the latest industry trends in our educational and innovative learning platform to you and your company. 
+      </p>
     </div>
   </section>
+
+  <!-- ============================================================= -->
+  <!-- SECTION for SERVICES -->
+  <!-- ============================================================= -->
+
+  <!-- Container (Services Section) -->
+<div class="container-fluid text-center">
+  <section id="services">
+  <h2 class="title-header text-light-grey center-align">Services</h2>
+  <h5 class="text-light-grey center-align">What we offer</h5>
+
+  <br>
+  <div class="row">
+    <div class="col s12 m4">
+      <span class="glyphicon glyphicon-book"></span>
+      <h4>Continuous Learning</h4>
+      <p>Large selection of security trainings that span across various topics including computer forensics, ethical hacking, network defense, exploit development and more. We also offer introductory courses to industry-wide certifications such as the CISSP and OSCP.</p>
+    </div>
+    <div class="col s12 m4">
+      <span class="glyphicon glyphicon-briefcase"></span>
+      <h4>Workshops</h4>
+      <p>We offer live and pre-recorded trainings that are accessible through the browser. Our workshops includes hands-on projects that are relevant to the profession.</p>
+    </div>
+    <div class="col s12 m4">
+      <span class="glyphicon glyphicon-bookmark"></span>
+      <h4>CTFs and Competitions</h4>
+      <p>Experience live cyber security competitions in a group setting and put your training to the test. Work in teams or individually to solve exercises that test your skills and learning.</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row">
+    <div class="col s12 m4">
+      <span class="glyphicon glyphicon-education"></span>
+      <h4>Career Tracks</h4>
+      <p>Align professional growth and roles with tailored security trainings that are designed to give you career mobility and increase work performance. 
+      </p>
+    </div>
+    <div class="col s12 m4">
+      <span class="glyphicon glyphicon-tasks"></span>
+      <h4>Assessment</h4>
+      <p>Track competency and progress to empower security professionals to reach the next level. Use the platform for career growth and improvement. 
+      </p>
+    </div>
+  </div>
+</div>
 
   <!-- ============================================================= -->
   <!-- SECTION for PARALLAX -->
@@ -147,18 +226,19 @@
   </div>
 
   <!-- ============================================================= -->
-  <!-- SECTION for PROGRAMS  -->
+  <!-- SECTION for SOLUTIONS  -->
   <!-- ============================================================= -->
-  
-  <section id="programs">
-    <div class="container">
+
+    <!-- <div class="container"> -->
+    	<section id="solutions">
       <div class="row">
-        <div class="col s12 l4">
+        <!-- <div class="col s12 l4">
           <img src="img/ccsf.png" alt="" class="responsive-img hide-on-med-and-down program-img-style">
-        </div>
+        </div> -->
+        <!--
         <div class="col s12 l6 offset-l1">
-          <h3 class="title-header text-light-grey">Programs</h3>
-          <p class="text-light-grey">A.S. Degree Programs, Cybersecurity Certificate Programs and offering a range of courses in Cisco Academy, Network Infrastructure and Administration, Cybersecurity, Tech Support for Windows and Mac and Information Security Analyst Apprenticeship Program</p>
+          <h3 class="title-header text-light-grey">Basic and Low-level Python Network Attacks</h3>
+          <p class="text-light-grey">This video course begins by showing, how to get Target and Attacker virtual machines running and properly networked.Then learn to connect to a server,automate login requests, write custom scanning tools and send unusual patterns of packets. Write your own tools to break into vulnerable websites.Finally use these tools to make defenses that distract attackers and detect suspicious network activity.</p>
           <a data-target="program" class="red darken-4 hoverable btn modal-trigger" target="blank">Learn More</a>
         </div>
         </div>
@@ -166,12 +246,20 @@
         <div class="col s12 l4 offset-l1 push-l7">
           <img src="img/partnership.jpg" alt="" class="responsive-img hide-on-med-and-down program-img-style">
         </div>
+		
+
         <div class="col s12 l6 offset-l1 pull-l5 right-align">
-          <h3 class="title-header text-light-grey">Cybersecurity Path</h3>
-          <p class="text-light-grey">We provide academic counseling services to assure our students success in their pursuit to become cybersecurity experts</p>
-          <a href="https://www.ccsf.edu/Departments/Computer_Networking_and_Information_Technology/about.html#couns3" class="red darken-4 hoverable btn" target="blank">Learn More</a>
+          <h3 class="title-header text-light-grey">Basic and Low-level Python Network Attacks</h3>
+          <p class="text-light-grey">This video course begins by showing, how to get Target and Attacker virtual
+            machines running and properly networked.Then learn to connect to a server,automate login requests, write
+            custom scanning tools and send unusual patterns of packets. Write your own tools to break into vulnerable
+            websites.Finally use these tools to make defenses that distract attackers and detect suspicious network
+            activity.</p>
+          <a href="https://www.amazon.com/Slowloris-Attack/dp/B07DM78RDJ" class="red darken-4 hoverable btn"
+            target="blank">Learn More</a>
         </div>
-        </div>
+      </div>
+
         <div class="row grid-bottom-padding">
         <div class="col s12 l4">
           <img src="img/resources.jpg" alt="" class="responsive-img hide-on-med-and-down program-img-style">
@@ -182,8 +270,46 @@
           <a data-target="resources" class="red darken-4 hoverable btn modal-trigger" target="blank">Learn More</a>
         </div>
       </div>
+      -->
+
+      <div class="container-fluid text-center">
+        
+  <h2 class="title-header text-light-grey center-align">Solutions</h2>
+
+  <br>
+  <div class="row">
+    <div class="col s12 m4">
+      <span class="glyphicon glyphicon-user"></span>
+      <h4>Individual</h4>
+      <p>InfoSec Decoded allows beginners, experts and cyber security enthusiasts at all skill levels to grow and improve themselves for a professional career in the industry.</p>
+    </div>
+    <div class="col s12 m4">
+      <span class="glyphicon glyphicon-stats"></span>
+      <h4>Business</h4>
+      <p>We offer a streamlined and innovative approach when building a security culture in your company. We begin by focusing on your security team and eventually expand security awareness to the rest of the organization. Recommended for a company of less than 500 people.</p>
+    </div>
+    <div class="col s12 m4">
+      <span class="glyphicon glyphicon-lock"></span>
+      <h4>Enterprise</h4>
+      <p>Businesses with more than 500 employees and who want to take their company's security program to the next level. Contact us to discuss solutions that goes beyond training. We can bring in security consultants who can provide professional security services.</p>
+    </div>
+  </div>
     </div>
   </section>
+
+  <!-- Consultation Section -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto text-center">
+          	<center>
+            <h6>Request a Consultation</h6>
+            <p style="text-align:center">Provide your details to speak with a security expert on our team or call for general inquiries (415) 562-6837</p>
+            <a href="mailto:info@infosecdecoded.com" class="blue darken-4 hoverable btn round-btn modal-trigger">Get In Touch</a>
+            </center>
+          </div>
+        </div>
+      </div>
+    </section>
 
   <!-- ============================================================= -->
   <!-- MODAL FOR PROGRAMS - Learn More Button -->
@@ -195,16 +321,20 @@
       <h4 class="modal-header">Cybersecurity Programs</h4>
       <p class="flow-text text-light-grey modal-padding">To learn more about each program, click on the links below.</p>
       <ul>
-        <a href="http://www.ccsf.edu/en/educational-programs/ccsf-catalog/courses-by-department/cnit-courses.html" target="blank">
+        <a href="http://www.ccsf.edu/en/educational-programs/ccsf-catalog/courses-by-department/cnit-courses.html"
+          target="blank">
           <li class="text-light-grey modal-hover-list">AS Degree</li>
         </a>
-        <a href="http://www.ccsf.edu/dam/ccsf/documents/OfficeOfInstruction/Catalog/Programs/ComputerNetworkingandInformationTechnology/CybersecurityCertificate.pdf" target="blank">
+        <a href="http://www.ccsf.edu/dam/ccsf/documents/OfficeOfInstruction/Catalog/Programs/ComputerNetworkingandInformationTechnology/CybersecurityCertificate.pdf"
+          target="blank">
           <li class="text-light-grey modal-hover-list">Cybersecurity Certificate</li>
         </a>
-        <a href="http://www.ccsf.edu/dam/ccsf/documents/OfficeOfInstruction/Catalog/Programs/ComputerNetworkingandInformationTechnology/AdvancedCybersecurityCertificate.pdf" target="blank">
+        <a href="http://www.ccsf.edu/dam/ccsf/documents/OfficeOfInstruction/Catalog/Programs/ComputerNetworkingandInformationTechnology/AdvancedCybersecurityCertificate.pdf"
+          target="blank">
           <li class="text-light-grey modal-hover-list">Advanced Cybersecurity Certificate</li>
         </a>
-        <a href="https://www.ccsf.edu/dam/ccsf/documents/admissions/forms/Petition_for_Associate_Degree_AA_AS.pdf" target="blank">
+        <a href="https://www.ccsf.edu/dam/ccsf/documents/admissions/forms/Petition_for_Associate_Degree_AA_AS.pdf"
+          target="blank">
           <li class="text-light-grey modal-hover-list">Petition for Associate Degree</li>
         </a>
         <a href="https://www.ccsf.edu/dam/ccsf/documents/admissions/forms/Certificate-Petition.pdf" target="blank">
@@ -222,7 +352,7 @@
       </ul>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-red btn-flat">DONE</a>
+      <a href="#!" class="modal-close waves-effect waves-red btn-flat">CLOSE</a>
     </div>
   </div>
 
@@ -234,7 +364,8 @@
   <div id="resources" class="modal">
     <div class="modal-content">
       <h4 class="modal-header">Cybersecurity Programs</h4>
-      <p class="flow-text text-light-grey modal-padding">To learn more about each resource, click on the links below.</p>
+      <p class="flow-text text-light-grey modal-padding">To learn more about each resource, click on the links below.
+      </p>
       <ul>
         <a href="https://samsclass.info/events.html" target="blank">
           <li class="text-light-grey modal-hover-list">Recommended Training Events</li>
@@ -260,20 +391,21 @@
         <a href="http://guides.ccsf.edu/friendly.php?s=cnit&hs=a" target="blank">
           <li class="text-light-grey modal-hover-list">CNIT Research Guide-Library</li>
         </a>
-        <a href="https://www.ccsf.edu/en/educational-programs/school-and-departments/school-of-science-and-mathematics/Apprenticeship.html" target="blank">
+        <a href="https://www.ccsf.edu/en/educational-programs/school-and-departments/school-of-science-and-mathematics/Apprenticeship.html"
+          target="blank">
           <li class="text-light-grey modal-hover-list">Apprenticeship Program - Inf. Security Analyst</li>
         </a>
       </ul>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-red btn-flat">DONE</a>
+      <a href="#!" class="modal-close waves-effect waves-red btn-flat">CLOSE</a>
     </div>
   </div>
 
   <!-- ============================================================= -->
   <!-- PARALLAX -->
   <!-- ============================================================= -->
-
+ 
   <div class="parallax-container hide-on-small-only">
     <div class="parallax">
       <img src="img/motherboard.jpg" alt="" class="responsive-img">
@@ -281,111 +413,436 @@
   </div>
 
   <!-- ============================================================= -->
-  <!-- SECTION for STUDENTS -->
+  <!-- SECTION for COURSES -->
   <!-- ============================================================= -->
 
-  <section id="students">
+  <section id="trainings">
     <div class="container">
       <div class="row">
-        <h3 class="title-header text-light-grey center-align">Students</h3>
+        <h3 class="title-header text-light-grey center-align">Courses</h3>
+        <br>
+
+
+   <!--
         <div class="col s12 m4">
-          <a href="https://cybersecurityclub.github.io/cyber-security-club/" target="blank">
+          <a href="https://www.amazon.com/dp/1593272901/ref=cm_sw_r_tw_dp_U_x_xcrgDbJ1KBA3A" target="blank">
             <div class="card hoverable">
               <div class="card-image">
-                <img src="img/cyberclub.jpg" alt="">
+                <img src="img/practical-malware.png" alt="">
               </div>
               <div class="card-content text-light-grey">
-                <p class="card-title text-light-grey">Cyber Security Club</p>
-                The Cyber Security Club is a student-run organization at City College of San Francisco.
+                <p class="card-title center text-light-grey">Practical Malware Analysis</p>
+                
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col s12 m4">
+          <a href="https://www.amazon.com/dp/1285454618/ref=cm_sw_r_tw_dp_U_x_PXqgDb7D3NENC" target="blank">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="img/ethical-hacking.png" alt="">
+              </div>
+              <div class="card-content text-light-grey">
+                <p class="card-title center text-light-grey">Ethical Hacking & Net Defense</p>
+                
               </div>
             </div>
           </a>
         </div>
         <div class="col s12 m4">
-          <a href="https://samsclass.info/140/140_S18.shtml" target="blank">
+          <a href="https://www.amazon.com/dp/1593275641/ref=cm_sw_r_tw_dp_U_x_QOqgDb1R95MAJ" target="blank">
             <div class="card hoverable">
               <div class="card-image">
-                <img src="img/competition.jpg" alt="">
+                <img src="img/advanced-ethical-hacking.png" alt="">
               </div>
               <div class="card-content text-light-grey">
-                <p class="card-title text-light-grey">Competition Team</p>
-                Train students for competitions, CTF and the Collegiate Cyberdefense Competition (CCDC).
+                <p class="card-title center text-light-grey">Adv. Ethical Hacking w/ Python</p>
+             
               </div>
             </div>
           </a>
         </div>
         <div class="col s12 m4">
-          <a href="https://cybersecurityclub.github.io/cyber-security-club/cybercamp.html" target="blank">
+          <a href="https://www.amazon.com/dp/0789759691/ref=cm_sw_r_tw_dp_U_x_1yqgDbNY3DB83" target="blank">
             <div class="card hoverable">
               <div class="card-image">
-                <img src="img/cybercamp.jpg" alt="">
+                <img src="img/cissp.png" alt="">
               </div>
               <div class="card-content text-light-grey">
-                <p class="card-title text-light-grey">Cyber Camp</p>
-                Trains high school students on cybersecurity. A week of training in cybersecurity.
+                <p class="card-title center text-light-grey">CISSP Preparation</p>
+               <br>
               </div>
             </div>
           </a>
         </div>
+        <div class="col s12 m4">
+          <a href="https://www.amazon.com/dp/1285060202/ref=cm_sw_r_tw_dp_U_x_LmrgDbERP6YQ9" target="blank">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="img/computer-forsensics.jpg" alt="">
+              </div>
+              <div class="card-content text-light-grey">
+                <p class="card-title center text-light-grey">Computer Forensics</p>
+                <br>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col s12 m4">
+          <a href="https://www.amazon.com/dp/047008023X/ref=cm_sw_r_tw_dp_U_x_r0qgDbKECFHE6" target="blank">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="img/exploit.png" alt="">
+              </div>
+              <div class="card-content text-light-grey">
+                <p class="card-title center text-light-grey">Exploit Development</p>
+              <br>
+              </div>
+            </div>
+          </a>
+        </div>
+        </a>
+        </div>
+-->
+
+<div class="responsive">
+  <div class="gallery">
+    <a data-target="beginner" class="text-btn and-more title-header center-align modal-trigger" target="blank">
+      <img src='img/yellow_beginner_ring_02.png' onmouseover="this.src='img/yellow_beginner_ring_01.png';" onmouseout="this.src='img/yellow_beginner_ring_02.png';" alt="Career Development" width="600" height="400">
+    </a>
+    <div class="desc">Beginner</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a data-target="attack" class="text-btn and-more title-header center-align modal-trigger" target="blank">
+      <img src='img/red_attack_ring_02.png' onmouseover="this.src='img/red_attack_ring_01.png';" onmouseout="this.src='img/red_attack_ring_02.png';" alt="Career Development" width="600" height="400">
+    </a>
+    <div class="desc">Attack</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a data-target="defense" class="text-btn and-more title-header center-align modal-trigger" target="blank">
+      <img src='img/blue_defense_ring_02.png' onmouseover="this.src='img/blue_defense_ring_01.png';" onmouseout="this.src='img/blue_defense_ring_02.png';" alt="Career Development" width="600" height="400">
+    </a>
+    <div class="desc">Defense</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a data-target="career" class="text-btn and-more title-header center-align modal-trigger" target="blank">
+      <img src='img/purple_carreerdev_ring_02.png' onmouseover="this.src='img/purple_carreerdev_ring_01.png';" onmouseout="this.src='img/purple_carreerdev_ring_02.png';" alt="Career Development" width="600" height="400">
+    </a>
+    <div class="desc">Career Development</div>
+  </div>
+</div>
+
+
+  <!--       
+        <div class="col s12 m4">
+          <a href="https://www.amazon.com/dp/1118958500/ref=cm_sw_r_tw_dp_U_x_t.qgDbB85KXWE" target="blank">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="img/securing mobile.jpg" alt="">
+              </div>
+              <div class="card-content text-light-grey">
+                <p class="card-title text-light-grey">Securing Mobile Apps</p>
+                
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col s12 m4">
+          <a href="https://www.amazon.com/dp/1491954388/ref=cm_sw_r_tw_dp_U_x_RKqgDbK675B5F" target="blank">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="img/practical-cryptography.png" alt="">
+              </div>
+              <div class="card-content text-light-grey">
+                <p class="card-title text-light-grey">Practical Cryptography</p>
+               
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="col s12 m4">
+          <a href="https://www.amazon.com/dp/0071798684/ref=cm_sw_r_tw_dp_U_x_I2qgDbJPNX1FJ" target="blank">
+            <div class="card hoverable">
+              <div class="card-image">
+                <img src="img/incident-response.png" alt="">
+              </div>
+              <div class="card-content text-light-grey">
+                <p class="card-title text-light-grey">Incident Response</p>
+                
+              </div>
+            </div>
+          </a>
+        </div>
+
+	
+
+  		<a data-target="and_more" class="text-btn and-more title-header center-align modal-trigger" target="blank">...And More</a>
+  	-->	
+  	<center> 
+  		
+      	<p style="text-align:center">Contact us for additional services</p>
+        <a href="mailto:info@infosecdecoded.com">
+           <i class="fa fa-envelope fa-4x" style="color:#133BB1;"></i>
+        </a>
+      <center>
+    </div>
+    </div>
+  </section>
+
+  <!-- ============================================================= -->
+  <!-- MODAL FOR And More - And More Button -->
+  <!-- ============================================================= -->
+
+  <!-- initialized in main.js -->
+  <div id="and_more" class="modal">
+      <h4 class=" more-padding modal-header">Additional Courses</h4>
+           <p class="more-padding text-light-grey">Introduction to Security</p>
+           <p class="more-padding text-light-grey">Securing Mobile Apps</p>
+			     <p class="more-padding text-light-grey">Practical Cryptography</p>
+			     <p class="more-padding text-light-grey">Incident Response</p>
+           <p class="more-padding text-light-grey">Ethical Hacking and Network Defense</p>
+           <p class="more-padding text-light-grey">Securing Web Apps</p>
+           <p class="more-padding text-light-grey">Practical Cryptography</p>
+           <p class="more-padding text-light-grey">Network Monitoring with Splunk</p>
+           <p class="more-padding text-light-grey">DNS Security</p>
+           <p class="more-padding text-light-grey">Advanced Ethical Hacking with Python</p>
+           <p class="more-padding text-light-grey">Computer Forensics</p>
+           <p class="more-padding text-light-grey">Exploit Development</p>
+           <p class="more-padding text-light-grey">Securing Mobile Apps</p>
+           <p class="more-padding text-light-grey">CISSP Preparation</p>
+           <p class="more-padding text-light-grey">Practical Malware Analysis</p>
+
+			<div align="right">
+      <a href="#!" class="modal-close waves-effect waves-blue btn-flat">CLOSE</a>
       </div>
     </div>
-  </section>  
+  </div>
 
   <!-- ============================================================= -->
-  <!-- SECTION for FACULTY ADVISORS -->
+  <!-- MODAL FOR Beginner -->
+  <!-- ============================================================= -->
+<!-- initialized in main.js -->
+  <div id="beginner" class="modal">
+  	<div align="center">
+      <h4 class=" more-padding modal-header">Beginner Courses</h4>
+		<img src="img/01.png" class="responsive-img">
+		<p class="more-padding text-light-grey">Introduction to Security</p>
+     </div>
+    <div align="right">
+      <a href="#!" class="modal-close waves-effect waves-blue btn-flat">CLOSE</a>
+    </div>
+    </div>
+  </div>
+  <!-- ============================================================= -->
+  <!-- MODAL FOR Defense -->
+  <!-- ============================================================= -->
+<!-- initialized in main.js -->
+  <div id="defense" class="modal">
+      <h4 class="center more-padding modal-header">Defense Courses</h4>
+
+      <div class='token-row'>
+      		<div class='token-column'>
+      			<img src="img/02.png" class="responsive-img">
+           		<p class="center more-padding text-light-grey">Securing Mobile Apps</p>
+           	</div>
+           	<div class='token-column'>
+           		<img src="img/03.png" class="responsive-img">
+				<p class="center more-padding text-light-grey">Practical Cryptography</p>
+			</div>
+			<div class='token-column'>
+				<img src="img/04.png" class="responsive-img">
+				<p class="center more-padding text-light-grey">Incident Response</p>
+			</div>
+		</div>
+		<div class='token-row'>
+			<div class='token-column'>
+				<img src="img/05.png" class="responsive-img">
+           		<p class="center more-padding text-light-grey">Securing Web Apps</p>
+           	</div>
+			<div class='token-column'>
+           		<img src="img/06.png" class="responsive-img">
+           		<p class="center more-padding text-light-grey">Network Monitoring with Splunk</p>
+           	</div>
+			<div class='token-column'>
+           		<img src="img/07.png" class="responsive-img">
+           		<p class="center more-padding text-light-grey">DNS Security</p>
+           	</div>
+        </div>
+        <div class='token-row'>
+			<div class='token-column'>
+           		<img src="img/08.png" class="responsive-img">
+           		<p class="center more-padding text-light-grey">Computer Forensics</p>
+           	</div>
+    	</div>
+
+		<div align="right">
+      		<a href="#!" class="modal-close waves-effect waves-blue btn-flat">CLOSE</a>
+      	</div>
+    </div>
+  </div>
+  <!-- ============================================================= -->
+  <!-- MODAL FOR Attack -->
+  <!-- ============================================================= -->
+<!-- initialized in main.js -->
+  <div id="attack" class="modal">
+      <h4 class="center more-padding modal-header">Attack Courses</h4>
+
+      <div class='token-row'>
+      		<div class='token-column'>
+           		<img src="img/09.png" class="responsive-img">
+           		<p class="center more-padding text-light-grey">Ethical Hacking and Network Defense</p>
+            </div>
+            <div class='token-column'>
+           		<img src="img/10.png" class="responsive-img">
+           		<p class="center more-padding text-light-grey">Advanced Ethical Hacking with Python</p>
+           </div>
+           <div class='token-column'>
+           		<img src="img/11.png" class="responsive-img">
+           		<p class="center more-padding text-light-grey">Exploit Development</p>
+           </div>
+       </div>
+
+        <div class='token-row'>
+           <div class='token-column'>
+           		<img src="img/12.png" class="responsive-img">
+           		<p class="center more-padding text-light-grey">Practical Malware Analysis</p>
+           </div>
+      </div>
+
+		<div align="right">
+      		<a href="#!" class="modal-close waves-effect waves-blue btn-flat">CLOSE</a>
+      	</div>
+    </div>
+  </div>
+  <!-- ============================================================= -->
+  <!-- MODAL FOR Career Development -->
+  <!-- ============================================================= -->
+<!-- initialized in main.js -->
+  <div id="career" class="modal">
+      <h4 class="center more-padding modal-header">Career Development</h4>
+           <div align="center">
+           <img src="img/13.png" class="responsive-img">
+           <p class="more-padding text-light-grey">CISSP Preparation</p>
+       </div>
+			<div align="right">
+      <a href="#!" class="modal-close waves-effect waves-blue btn-flat">CLOSE</a>
+      </div>
+    </div>
+  </div>
+  <!-- ============================================================= -->
+  <!-- SECTION for TEAM -->
   <!-- ============================================================= -->
 
-  <section id="advisors">
-    <h3 class="title-header text-light-grey center-align">Faculty Advisors</h3>
+  <section id="team">
+    <h3 class="title-header text-light-grey center-align">Team Members</h3>
     <div class="container">
       <div class="row">
+        
         <div class="col s12 m6">
-          <a href="http://www.richardsclass.info/" target="blank">
-            <div class="card horizontal hoverable">
-              <div class="card-image">
-                <img src="img/richard.png">
-              </div>
-              <div class="card-stacked">
-                <div class="card-content">
-                  <h5 class="text-red-accent">Richard Wu</h5>
-                  <h6 class="text-light-grey">Cybersecurity Instructor</h6>
-                  <p class="text-light-grey">rwu@ccsf.edu</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col s12 m6">
-          <a href="https://samsclass.info/" target="blank">
             <div class="card horizontal hoverable">
               <div class="card-image">
                 <img src="img/sam.png">
               </div>
               <div class="card-stacked">
                 <div class="card-content">
-                  <h5 class="text-red-accent">Sam Bowne</h5>
+                  <h5 class="text-blue-accent">Sam Bowne</h5>
                   <h6 class="text-light-grey">Cybersecurity Instructor</h6>
-                  <p class="text-light-grey">sbowne@ccsf.edu</p>
+                   <!-- <p class="text-light-grey">sbowne@ccsf.edu</p> -->
+                  <a data-target="sam_profile" class="blue darken-4 hoverable btn modal-trigger" target="blank">View Profile</a>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col s12 m6">
+            <div class="card horizontal hoverable">
+              <div class="card-image">
+                <img src="img/elizabeth.png">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <h5 class="text-blue-accent">Elizabeth Biddlecome</h5>
+                  <h6 class="text-light-grey">Cybersecurity Instructor</h6>
+                  <!-- <p class="text-light-grey">ebiddlecome@ccsf.edu</p> -->
+                  <a data-target="elizabeth_profile" class="blue darken-4 hoverable btn modal-trigger" target="blank">View Profile</a>
                 </div>
               </div>
             </div>
           </a>
         </div>
       </div>
+      <!--
       <div class="row center-align">
       <a class="grey darken-2 hoverable btn modal-trigger" href="https://www.ccsf.edu/Departments/Computer_Networking_and_Information_Technology/AdvisoryBoardMeeting.pdf" target="blank">External Board of Advisors</a>
       </div>
     </div>
+    -->
   </section>
 
   <!-- ============================================================= -->
-  <!-- SECTION for PARTNERS - LARGE SCREEN -->
+  <!-- MODAL FOR Elizabeth Profile - View Profile Button -->
   <!-- ============================================================= -->
 
+  <!-- initialized in main.js -->
+  <div id="elizabeth_profile" class="modal">
+    <div class="modal-content">
+      <h4 class="modal-header">Elizabeth Biddlecome</h4>
+      <p>Elizabeth Biddlecome is a consultant and a part-time instructor at City College San Francisco, delivering technical training and mentorship to students and professionals.   She leverages her enthusiasm for architecture, security, and code to design and implement comprehensive information security solutions for business needs.  Elizabeth enjoys wielding everything from soldering irons to scripting languages in cybersecurity competitions, hackathons, and CTFs.
+      <h5>Formal Education</h5>
+      A.S. in Computer Networking and Information Technology
+Certificates of Accomplishment in Network Security, Cybersecurity, and Advanced Cybersecurity
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-blue btn-flat">CLOSE</a>
+    </div>
+  </div>
+
+  <!-- ============================================================= -->
+  <!-- MODAL FOR Sam Profile - View Profile Button -->
+  <!-- ============================================================= -->
+
+  <!-- initialized in main.js -->
+  <div id="sam_profile" class="modal">
+    <div class="modal-content">
+      <h4 class="modal-header">Sam Bowne</h4>
+      <p>Sam Bowne has been teaching computer networking and security classes at City College San Francisco since 2000. He has given talks and hands-on trainings at DEF CON, DEF CON China, HOPE, BSidesSF, BSidesLV, RSA, and many other conferences and colleges.
+      <h5>Formal Education</h5>
+      B.S. and Ph.D. in Physics
+      <br> </br>
+      <h5>Industry Certificates</h5>
+
+      Infosec: CISSP, Certified Ethical Hacker, Security+, Defcon Black Badge, Splunk Core Certified User
+      <br>Networking: Network+, Certified Fiber Optic Technician, HE IPv6 Sage, CCENT, IPv6 Forum Silver & Gold, Juniper JN0-101, Wireshark WCNA <br>
+      Microsoft: MCP, MCDST, MCTS: Vista</p>
+
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-blue btn-flat">CLOSE</a>
+    </div>
+  </div>
+ 
+  <!-- ============================================================= -->
+  <!-- SECTION for PARTNERS - LARGE SCREEN -->
+  <!-- ============================================================= -->
+  <!--  
   <section id="partners">
     <h3 class="text-light-grey title-resources center-align title-header">Partners</h3>
-    <div class="container hide-on-small-only">
-      <!-- first row for partners -->
+    <div class="container hide-on-small-only"> -->
+
+  <!-- first row for partners 
       <div class="row partner-row">
         <div class="col s2">
           <a href="https://www.comptia.org/" target="blank">
@@ -419,7 +876,7 @@
         </div>
       </div>
   
-      <!-- second row for partners -->
+      <!-second row for partners
       <div class="row partner-row">
         <div class="col s2">
           <a href="https://www.microsoft.com/en-us/" target="blank">
@@ -454,7 +911,7 @@
       </div>
     </div>
   
-    <!-- PARTNERS in MOBILE SCREEN -->
+    <!-- PARTNERS in MOBILE SCREEN
     <div class="container hide-on-med-and-up show-on-small">
       <div class="row partner-row">
         <div class="col s6">
@@ -528,14 +985,14 @@
       </div>
     </div>
   </section>
-
+	-->
   <!-- ============================================================= -->
   <!-- SECTION for NEWS & EVENTS -->
   <!-- ============================================================= -->
-  
-  <section id="news-events" class="section section-icons grey lighten-4 center">
+
+  <!-- <section id="news-events" class="section section-icons grey lighten-4 center"> -->
     <!-- dyanmically inserts from news-events.js -->
-  </section>
+  <!-- </section> -->
 
   <!-- ============================================================= -->
   <!-- SECTION for FOOTER -->
@@ -550,12 +1007,13 @@
   <!-- ===================================================================== -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <!-- <script src="assets/about.js"></script> -->
-  <!-- <script src="assets/programs.js"></script> -->
-  <!-- <script src="assets/students.js"></script> -->
-  <!-- <script src="assets/advisors.js"></script> -->
+  <!-- <script src="assets/solutions.js"></script> -->
+  <!-- <script src="assets/courses.js"></script> -->
+  <!-- <script src="assets/team.js"></script> -->
   <!-- <script src="assets/partners.js"></script> -->
   <script src="assets/news-events.js"></script>
   <script src="assets/footer.js"></script>
   <script src="assets/main.js"></script>
 </body>
+
 </html>
